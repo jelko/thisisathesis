@@ -1,0 +1,17 @@
+{
+  "locals": {
+    "url": "http://thisisathesis.jelkoarnds.com",
+    "name": “thisisathesis.jelkoarnds.com",
+    "owner": "Jelko Arnds",
+    "description": "a thesis on the web"
+  },
+  "plugins": [
+    "./node_modules/wintersmith-swig/plugin.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "ignore": ["**/.DS_Store"]
+}
